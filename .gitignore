@@ -1,0 +1,52 @@
+# 빌드 디렉토리 (Gradle)
+build/
+
+# 빌드 디렉토리 (Maven)
+target/
+
+# Maven과 Gradle의 로컬 설정 파일
+*.iml
+.gradle/
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+
+# 환경 변수 설정 파일 (비밀 값 포함 가능)
+.env
+
+# IDE 및 도구 설정 파일 (IntelliJ IDEA)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# IntelliJ IDEA 캐시 및 로그
+*.swp
+*.swo
+*.log
+
+# Eclipse 설정 파일 (IDE를 사용하는 경우)
+.settings/
+*.metadata
+*.classpath
+*.project
+
+# STS(Spring Tool Suite) 설정 파일
+.springBeans
+
+# 윈도우 OS별 불필요한 파일
+.DS_Store
+Thumbs.db
+
+# 실행 파일
+*.exe
+*.out
+*.app
+
+# JAR, WAR 파일 (빌드 산출물)
+*.jar
+*.war
+
+# 테스트 결과 파일
+test-results/
+surefire-reports/
