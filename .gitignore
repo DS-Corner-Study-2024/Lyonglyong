@@ -13,36 +13,30 @@ target/
 # 환경 변수 설정 파일 (비밀 값 포함 가능)
 .env
 
-# IDE 및 도구 설정 파일
+# IDE 및 도구 설정 파일 (IntelliJ IDEA)
 .idea/
-.project
-.classpath
-*.class
-*.log
-
-# IntelliJ IDEA
-*.ipr
+*.iml
 *.iws
-*.idea/
-*.swp
-*.swo
+*.ipr
 out/
 
-# Eclipse 설정 파일
+# IntelliJ IDEA 캐시 및 로그
+*.swp
+*.swo
+*.log
+
+# Eclipse 설정 파일 (IDE를 사용하는 경우)
 .settings/
 *.metadata
 *.classpath
 *.project
 
-# STS(Spring Tool Suite)
+# STS(Spring Tool Suite) 설정 파일
 .springBeans
 
-# OS별 불필요한 파일
+# 윈도우 OS별 불필요한 파일
 .DS_Store
 Thumbs.db
-
-# 로그 파일
-*.log
 
 # 실행 파일
 *.exe
