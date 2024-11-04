@@ -1,4 +1,4 @@
-package hello.hello_spring;
+package hello.hello_spring; // 이 패키지 하위만 스프링 빈으로 등록
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
